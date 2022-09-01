@@ -12,11 +12,24 @@ export default {
 
 <style lang="css" scoped>
     .header {
+        font-size: 25px;
+
+        text-transform: uppercase;
+
+        padding: 15px;
+        box-shadow: 4px 14px 27px 0px rgba(34, 60, 80, 0.1);
+
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 4px 14px 27px 0px rgba(34, 60, 80, 0.2);
         color: gray;
     }
-    .header span {
-        color: crimson;
+    .logo {
+      font-size: inherit;
+
+      margin-left: 9%;
+    }
+    .logo span {
+      font-size: inherit;
+
+      color: rgb(255, 15, 83);
     }
 </style>
